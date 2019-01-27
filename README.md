@@ -21,6 +21,7 @@ A package MUST use these names for these root-level directories:
 | command-line executables                        | `bin/`                     |
 | configuration files                             | `config/`                  |
 | documentation files                             | `docs/`                    |
+| migration files                                 | `migrations/`              |
 | web server files                                | `public/`                  |
 | other resource files                            | `resources/`               |
 | PHP source code                                 | `src/`                     |
@@ -59,6 +60,14 @@ directory.
 ### docs/
 
 If the package provides a root-level directory for documentation files, it MUST
+be named `docs/`.
+
+This publication does not otherwise define the structure and contents of the
+directory.
+
+### migrations/
+
+If the package provides a root-level directory for migration files, it MUST
 be named `docs/`.
 
 This publication does not otherwise define the structure and contents of the
